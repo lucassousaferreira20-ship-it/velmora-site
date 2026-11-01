@@ -29,6 +29,17 @@ Quando sair uma versão nova do launcher, repita o passo 2 com outra tag. O site
 
 No `.env` do Sino de Velmora, preencha `SITE_URL` (endereço do site) e, se quiser, `CHANNEL_LAUNCHER`. No Discord, a Staff usa `/launcher painel canal:#launcher`. Depois disso `/launcher baixar` responde com o link só nesse canal.
 
+## 5. Música, vídeo e imagens
+
+- `media/velmora-tema.mp3`: trilha tema original (1 min 36 s, em loop). Para trocar por outra música, substitua esse arquivo mantendo o nome.
+- `media/cidade.mp4` e `media/cidade.jpg`: vídeo do fundo da abertura (cenas do jogo) e o quadro mostrado enquanto ele carrega.
+- `assets/cena/`: capturas do jogo usadas nas seções. Para trocar uma, substitua o arquivo mantendo o nome.
+- O navegador só permite tocar som depois de um clique. Por isso o site abre com uma tela "Entrar com som" / "Entrar sem som". Depois dela, o botão no canto de baixo à esquerda liga, desliga e ajusta o volume.
+
+## 6. Mostrar se o servidor está aberto (opcional)
+
+No `config.js`, preencha `servidor` com o endereço do servidor no exaroton (por exemplo `velmora.exaroton.me`). A abertura passa a mostrar "Servidor aberto: X de Y jogadores". Vazio, a linha não aparece.
+
 ## Observações
 
 - As fontes vêm do Google Fonts: sem internet o site usa fontes do sistema, e continua legível.
