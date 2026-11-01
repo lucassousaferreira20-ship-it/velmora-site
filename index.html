@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Velmora SMP: o reino que silenciou</title>
+<meta name="description" content="Um reino inteiro desapareceu em uma noite. Velmora é um servidor de Minecraft Java 1.20.1 com história, facções e mistério. Baixe o launcher e entre.">
+<meta name="theme-color" content="#0d0e0f">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Velmora SMP: o reino que silenciou">
+<meta property="og:description" content="Um reino inteiro desapareceu em uma noite. Você foi chamado para descobrir por quê.">
+<meta property="og:image" content="assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=IM+Fell+English+SC&family=IM+Fell+English:ital@0;1&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="pular" href="#historia">Pular para o conteúdo</a>
+
+<header class="topo" id="topo-nav">
+  <a class="marca" href="#inicio" aria-label="Velmora, início">
+    <img src="assets/icone.png" alt="" width="34" height="34">
+    <span>Velmora</span>
+  </a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+  <nav id="menu" class="menu" aria-label="Seções">
+    <a href="#historia">A história</a>
+    <a href="#faccoes">Facções</a>
+    <a href="#entrar">Como entrar</a>
+    <a href="#contato">Contato</a>
+    <a class="menu-baixar" href="#launcher">Baixar o launcher</a>
+  </nav>
+</header>
+
+<main>
+<!-- ======================= ABERTURA ======================= -->
+<section class="hero" id="inicio">
+  <div class="cena" aria-hidden="true">
+    <div class="quadro" id="quadro">
+      <img class="cena-img" src="assets/hero.jpg" alt="" width="2600" height="900" fetchpriority="high">
+      <div class="ondas" id="ondas"></div>
+      <button class="torre" id="torre" type="button" tabindex="-1" title="Tocar o sino">
+        <svg class="sino-mini" id="sino-mini" viewBox="0 0 20 24"><path d="M10 1.5v2.5M10 4C6.4 4 5.2 7.2 5.2 10.6c0 3.2-1.4 4.6-2.6 6.2-.3.5 0 1.2.7 1.2h13.4c.7 0 1-.7.7-1.2-1.2-1.6-2.6-3-2.6-6.2C14.8 7.2 13.6 4 10 4z"/><path d="M7.8 19.2a2.3 2.3 0 0 0 4.4 0z"/></svg>
+      </button>
+    </div>
+    <div class="veu"></div>
+    <div class="nevoa n1"></div><div class="nevoa n2"></div>
+  </div>
+
+  <div class="hero-texto">
+    <h1>Velmora</h1>
+    <p class="lema">Um reino inteiro desapareceu em uma noite. Você foi chamado para descobrir por quê.</p>
+    <div class="acoes">
+      <a class="botao principal" href="#launcher">Baixar o launcher</a>
+      <a class="botao" data-link="discord" href="#contato">Entrar no Discord</a>
+    </div>
+    <p class="nota">Minecraft Java 1.20.1 com Forge. Entrada por whitelist, para maiores de 18 anos.</p>
+  </div>
+
+  <button class="toque" id="toque" type="button">Tocar o sino</button>
+</section>
+
+<!-- ======================= HISTÓRIA ======================= -->
+<section class="secao historia" id="historia">
+  <div class="coluna-leitura">
+    <h2>O reino que silenciou</h2>
+
+    <p class="capitular">Há cem anos, Velmora desapareceu numa única noite.</p>
+    <p>Não houve guerra, nem praga, nem fogo. As casas continuaram de pé, as mesas postas, as forjas ainda quentes. Só não restou ninguém. Quem passou pela estrada nas manhãs seguintes encontrou o pão sobre as tábuas, as portas abertas e o sino da torre parado, como se esperasse a próxima hora.</p>
+    <p>Uma névoa fechou a região. Os poucos que entraram nela não voltaram, e todos os outros aprenderam a não perguntar.</p>
+    <p class="vira">Agora a névoa está recuando.</p>
+    <p>Em povos distantes, gente que nunca se viu começou a ter o mesmo sonho: um sino tocando devagar e uma voz dizendo que era hora de voltar. Alguns riram. Outros juntaram o que tinham e se puseram a caminho. Você está entre eles.</p>
+    <p>Dizem que algo ainda vela a cidade. Chamam de Guardião. Ninguém sabe o que ele guarda, nem de quem.</p>
+  </div>
+  <aside class="eco" aria-label="A voz do sonho">
+    <p>Voltem para casa.</p>
+  </aside>
+</section>
+
+<!-- ======================= FACÇÕES ======================= -->
+<section class="secao faccoes" id="faccoes">
+  <div class="faccoes-intro">
+    <h2>Quatro casas, uma cidade</h2>
+    <p>Quem chega a Velmora escolhe uma facção. A raça do seu personagem é livre; a facção diz como você pretende viver aqui. Cada uma tem 12 vagas e é guiada pelos seus Vigias.</p>
+  </div>
+
+  <ul class="estandartes">
+    <li class="estandarte" style="--tom:#8c7b6b">
+      <svg viewBox="0 0 56 56" aria-hidden="true"><path d="M7 40 11 15l10 12 7-17 7 17 10-12 4 25zM7 46h42"/></svg>
+      <h3>Coroa</h3>
+      <p>Política, comércio, lei e agricultura.</p>
+    </li>
+    <li class="estandarte" style="--tom:#6b8c74">
+      <svg viewBox="0 0 56 56" aria-hidden="true"><path d="M34 8a20 20 0 1 0 0 40 16 16 0 1 1 0-40z"/><path d="m43 13 1.6 3.9 3.9 1.6-3.9 1.6L43 24l-1.6-3.9-3.9-1.6 3.9-1.6z"/></svg>
+      <h3>Vesper</h3>
+      <p>Magia, arquivos e memória.</p>
+    </li>
+    <li class="estandarte" style="--tom:#8c6b6b">
+      <svg viewBox="0 0 56 56" aria-hidden="true"><path d="M8 19h33c0 6-6 9-11 9v6h6v7H14v-7h6v-6c-6 0-11-3-12-9zM41 19h8l-8 6"/></svg>
+      <h3>Forjafunda</h3>
+      <p>Engenhos, mineração e construção.</p>
+    </li>
+    <li class="estandarte" style="--tom:#6b738c">
+      <svg viewBox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="19"/><path d="M28 9l-4 12 8 7-6 12 2 7"/></svg>
+      <h3>Lua Quebrada</h3>
+      <p>Guerra, caça e exploração da névoa.</p>
+    </li>
+  </ul>
+</section>
+
+<!-- ======================= COMO ENTRAR ======================= -->
+<section class="secao entrar" id="entrar">
+  <div class="entrar-intro">
+    <h2>O caminho até a cidade</h2>
+    <p>Velmora não tem portão aberto. Cinco passos separam você da estrada.</p>
+  </div>
+  <ol class="caminho">
+    <li>
+      <h3>Entre no Discord</h3>
+      <p>É lá que tudo acontece: avisos, whitelist, fichas e a equipe.</p>
+      <a class="link" data-link="discord" href="#contato">Abrir o convite</a>
+    </li>
+    <li>
+      <h3>Faça a whitelist</h3>
+      <p>Dez perguntas no canal #whitelist. A idade mínima é 18 anos, e a equipe lê cada inscrição.</p>
+    </li>
+    <li>
+      <h3>Escreva a ficha do seu personagem</h3>
+      <p>Quem ele foi, de onde veio, por que atendeu ao chamado. A Lore Team lê e aprova.</p>
+    </li>
+    <li>
+      <h3>Escolha uma facção</h3>
+      <p>Coroa, Vesper, Forjafunda ou Lua Quebrada, no canal #escolha-de-faccao. Cada uma tem 12 vagas.</p>
+    </li>
+    <li>
+      <h3>Baixe o launcher e atravesse a névoa</h3>
+      <p>Ele instala tudo sozinho e já deixa o servidor na sua lista.</p>
+      <a class="link" href="#launcher">Ir para o download</a>
+    </li>
+  </ol>
+</section>
+
+<!-- ======================= LAUNCHER ======================= -->
+<section class="secao launcher" id="launcher">
+  <div class="launcher-painel">
+    <div class="launcher-marca">
+      <img src="assets/icone.png" alt="" width="132" height="132">
+    </div>
+    <div class="launcher-corpo">
+      <h2>Velmora Launcher</h2>
+      <p>Um programa para Windows que baixa o modpack, instala o Java e o Forge, abre o Minecraft com o tema de Velmora e deixa o servidor pronto na lista. Quando o modpack muda, ele atualiza sozinho.</p>
+      <div class="acoes">
+        <a class="botao principal" data-link="download" href="#launcher" download>Baixar para Windows</a>
+        <a class="link" data-link="versoes" href="#launcher">Todas as versões</a>
+      </div>
+      <p class="requisitos">Precisa de Windows 10 ou 11 de 64 bits, 8 GB de RAM ou mais e uma conta Microsoft com o Minecraft Java Edition. Não existe modo pirata.</p>
+    </div>
+
+    <ol class="usar">
+      <li>
+        <h3>Abra o arquivo</h3>
+        <p>Se o Windows avisar que protegeu o computador, clique em Mais informações e depois em Executar assim mesmo. O programa é de uma comunidade pequena e não tem assinatura digital.</p>
+      </li>
+      <li>
+        <h3>Entre com a Microsoft</h3>
+        <p>O login acontece na janela da própria Microsoft. O launcher nunca vê a sua senha.</p>
+      </li>
+      <li>
+        <h3>Clique em Entrar em Velmora</h3>
+        <p>Na primeira vez ele baixa tudo e leva de 10 a 20 minutos. Depois abre em segundos.</p>
+      </li>
+    </ol>
+
+    <p class="selo">O link oficial também é publicado pelo Sino de Velmora no canal <strong data-canal>#launcher</strong> do Discord. Se um link do launcher chegar de outro lugar, desconfie.</p>
+  </div>
+</section>
+
+<!-- ======================= CONTATO ======================= -->
+<section class="secao contato" id="contato">
+  <div class="contato-intro">
+    <h2>Fale com a gente</h2>
+    <p>Velmora é um projeto voluntário e gratuito, feito por gente que ama histórias. O melhor lugar para falar com a equipe é o Discord.</p>
+    <div class="acoes">
+      <a class="botao principal" data-link="discord" href="#contato">Entrar no Discord</a>
+      <a class="botao" data-link="tiktok" href="#contato">Ver no TikTok</a>
+    </div>
+  </div>
+
+  <div class="equipes">
+    <h3>Quem responde</h3>
+    <p>No Discord, o canal #abrir-ticket chama a equipe certa:</p>
+    <dl>
+      <dt>Staff</dt>
+      <dd>Dúvidas gerais, denúncias e tudo o que envolve a comunidade.</dd>
+      <dt>Lore Team</dt>
+      <dd>História, fichas de personagem e enigmas.</dd>
+      <dt>Balanceamento e Bugs</dt>
+      <dd>Erros no jogo, problemas com o modpack e itens fortes demais.</dd>
+    </dl>
+    <p class="ajuda">Quer ajudar a construir Velmora? Abra um ticket e fale com a Staff.</p>
+  </div>
+
+  <div class="duvidas">
+    <h3>Perguntas rápidas</h3>
+    <details>
+      <summary>Preciso pagar para jogar?</summary>
+      <p>Não. Velmora é gratuito. Você só precisa ter o Minecraft Java Edition na sua conta Microsoft.</p>
+    </details>
+    <details>
+      <summary>Posso jogar sem ter o Minecraft?</summary>
+      <p>Não. O servidor só aceita contas originais. É isso que impede alguém de entrar com o nome de outra pessoa.</p>
+    </details>
+    <details>
+      <summary>Funciona no Mac ou no Linux?</summary>
+      <p>Por enquanto o launcher é só para Windows.</p>
+    </details>
+    <details>
+      <summary>Qual é a idade mínima?</summary>
+      <p>18 anos. A whitelist pergunta, e a equipe confere.</p>
+    </details>
+  </div>
+</section>
+</main>
+
+<footer class="rodape">
+  <img src="assets/icone.png" alt="" width="40" height="40">
+  <p>Velmora SMP é um projeto de fãs, sem ligação com a Mojang Studios nem com a Microsoft. Minecraft é marca registrada da Mojang Studios.</p>
+</footer>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
